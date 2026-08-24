@@ -24,7 +24,7 @@ const requisicao = (req, res) => {
 
     else if (req.method === 'GET' && urlObj.pathname === '/') {
         return res.end(JSON.stringify({
-            data: 'Esta  é a página inicial'
+            data: 'Esta é a nossa página inicial'
         }))
     }
 
