@@ -35,5 +35,5 @@ const requisicao = (req, res) => {
 server.on('request', requisicao)
 
 server.listen(porta, () => {
-    console.log(`Servidor ouvindo na porta ${porta}`)
+    console.log(` Servidor ouvindo na porta ${porta}`)
 })
